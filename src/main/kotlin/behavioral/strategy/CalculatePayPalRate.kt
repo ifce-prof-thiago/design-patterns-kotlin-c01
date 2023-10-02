@@ -1,17 +1,17 @@
-package examples.strategy
+package behavioral.strategy
 
-class CalculateMercadoPagoRate : CalculateRate {
+class CalculatePayPalRate : CalculateRate {
+
     override fun calculateRate(instalmentCount: Int): Double {
 
-        val rate = 2.0
+        val rate = 5.0
 
         if (instalmentCount == 1) {
             return rate
         }
 
-        return instalmentCount * 1.99 + 5.0
+        return instalmentCount * 3.0
 
     }
-
 
 }

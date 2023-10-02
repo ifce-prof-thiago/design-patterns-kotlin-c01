@@ -1,4 +1,4 @@
-package examples.strategy
+package behavioral.strategy
 
 class Order(private var total: Double, private var instalmentCount: Int) {
 

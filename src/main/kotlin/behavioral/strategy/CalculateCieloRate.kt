@@ -1,4 +1,4 @@
-package examples.strategy
+package behavioral.strategy
 
 class CalculateCieloRate : CalculateRate {
 
