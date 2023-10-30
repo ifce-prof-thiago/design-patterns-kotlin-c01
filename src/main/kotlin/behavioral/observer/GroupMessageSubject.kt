@@ -13,7 +13,7 @@ class GroupMessageSubject : MessageSubject {
     }
 
     override fun publish(sender: String, message: Message) {
-        observers.forEach { it.update(sender, message)}
+        observers.forEach { it.update(sender, message) }
     }
 
 }
