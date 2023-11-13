@@ -9,7 +9,7 @@ fun main() {
         ccv = "123"
     )
 
-    payWith(props, BraspagAdapter())
+    payWith(props, PagarmeAdapter())
 
 }
 
