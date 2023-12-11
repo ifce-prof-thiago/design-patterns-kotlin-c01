@@ -1,4 +1,4 @@
-package creational.decorator
+package structural.decorator
 
 abstract class Pizza() {
     abstract fun description() : String

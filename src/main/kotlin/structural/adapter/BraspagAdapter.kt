@@ -1,6 +1,6 @@
-package creational.adapter
+package structural.adapter
 
-import creational.adapter.gateway.Braspag
+import structural.adapter.gateway.Braspag
 
 class BraspagAdapter : Payment {
     override fun pay(props: PaymentProperties) {

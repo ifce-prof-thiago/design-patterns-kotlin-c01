@@ -1,6 +1,6 @@
-package creational.adapter
+package structural.adapter
 
-import creational.adapter.gateway.Pagarme
+import structural.adapter.gateway.Pagarme
 
 class PagarmeAdapter : Payment {
 

@@ -1,4 +1,4 @@
-package creational.adapter
+package structural.adapter
 
 interface Payment { // Target
     fun pay(props: PaymentProperties)

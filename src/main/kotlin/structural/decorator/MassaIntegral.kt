@@ -1,4 +1,4 @@
-package creational.decorator
+package structural.decorator
 
 class MassaIntegral(pizza: Pizza) : AdditionalDecorator(pizza) {
     override fun description() = "${pizza.description()} + Massa Integral"

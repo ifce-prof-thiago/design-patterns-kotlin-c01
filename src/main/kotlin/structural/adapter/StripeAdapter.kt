@@ -1,6 +1,6 @@
-package creational.adapter
+package structural.adapter
 
-import creational.adapter.gateway.Stripe
+import structural.adapter.gateway.Stripe
 
 class StripeAdapter : Payment {
     override fun pay(props: PaymentProperties) {

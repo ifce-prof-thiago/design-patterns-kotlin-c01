@@ -1,4 +1,4 @@
-package creational.adapter.gateway
+package structural.adapter.gateway
 
 class Stripe {
 

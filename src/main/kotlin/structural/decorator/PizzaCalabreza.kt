@@ -1,4 +1,4 @@
-package creational.decorator
+package structural.decorator
 
 class PizzaCalabreza : Pizza() {
     override fun description() = "Pizza de Calabreza"

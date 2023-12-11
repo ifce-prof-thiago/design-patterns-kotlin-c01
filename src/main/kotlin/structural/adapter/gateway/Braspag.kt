@@ -1,4 +1,4 @@
-package creational.adapter.gateway
+package structural.adapter.gateway
 
 class Braspag(val price: Double, val qtdParcelas: Int, val card: String, val ccv: String) {
     fun pagar() {
